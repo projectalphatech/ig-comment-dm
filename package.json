@@ -1,0 +1,16 @@
+{
+  "name": "ig-comment-dm",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Instagram comment keyword -> public reply + DM with link (follow-gated) on Cloudflare Workers",
+  "scripts": {
+    "test": "node test.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  },
+  "license": "MIT"
+}

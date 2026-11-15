@@ -1,0 +1,6 @@
+# Local dev only. Copy to .dev.vars (git-ignored) and fill in. Production: `npx wrangler secret put <NAME>`.
+APP_SECRET=
+IG_TOKEN=
+IG_USER_ID=
+IG_USERNAME=
+VERIFY_TOKEN=

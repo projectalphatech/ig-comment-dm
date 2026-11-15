@@ -1,0 +1,8 @@
+name = "ig-comment-dm"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+# keeps console.log output (Instagram API errors) visible in the Cloudflare dashboard
+[observability]
+enabled = true
